@@ -66,8 +66,7 @@ if not os.path.exists( directory ):
     os.makedirs( directory )
 
 
- # ################################ SOLVING
-#####################################
+ ################################# SOLVING #####################################
 
 minmax = np.zeros (( len( ic ) , 6) ) ;
 j = 0;
